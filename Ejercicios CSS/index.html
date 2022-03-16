@@ -1,22 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styleimg.css">
     <style>
-        #txtcss{color: red;}
+        #txtcss {
+            color: red;
+        }
     </style>
     <title>Notas CSS</title>
 </head>
+
 <body>
     <h1>Mis notas de CSS.</h1>
     <h2>Cascading Style Sheets <i>(Hojas de Estilo en Cascada)</i></h2>
-    Es un lenguaje de hojas de estilo, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML. 
+    Es un lenguaje de hojas de estilo, es decir, te permite aplicar estilos de manera selectiva a elementos en
+    documentos HTML.
     <br>
     <ul>
         <li style="color: blue;">En una etiqueta: con el atributo style</li>
         <li id="txtcss">En el encabezado: con la etiqueta &lt;style&gt;</li>
-        <li>En un archivo externo</li>
+        <li id="archivo">En un archivo externo</li>
     </ul>
+
+    <p>Para más información visite <a href="http://www.w3schools.com/cssref/css_
+        selectors.asp" target="_blank">w3schools.com</a></p>
+    <div>
+        Modelo de caja:
+        <br>
+        Soy una caja, tengo Content, Padding, Border y Margin. Mi fondo es lightgrey, mi ancho es 600px, mis márgenes de
+        25px, mi borde de 25px y mi padding de 25px.
+        <br>
+        Creada con &ltdiv&gt, no tengo id ni class.
+        <br>
+        Me aplica la regla de estilo con el selector<br>
+        div {...
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, incidunt veniam. Labore quis eaque similique,
+        itaque corrupti consectetur suscipit alias numquam repellat, aut odio obcaecati, voluptatibus facere deserunt
+        dicta fuga.
+    </div>
+    <div id="lgf">
+        Modelo de caja:
+        <br>
+        Yo soy una caja creada con &ltdiv <mark>id="lgf"&gt</mark>
+        <br>
+        Me aplica la regla de estilo con el selector
+        <br>
+        <mark>#lgf {...}</mark>
+    </div>
+    <div class="miclase">
+        Modelo de caja:
+        <br>
+        Yo soy una caja creada con &ltdiv
+        <mark>class="miclase"&gt</mark>
+        <br>
+        Me aplica la regla de estilo con el selector
+        <br>
+        <mark>.miclase {...}</mark>
+    </div>
+
+    <ul id="uno">
+        <li id="unoi"><a href="index.html">Home</a></li>
+        <li id="unoi"><a href="noticias.html">Noticias</a></li>
+        <li id="unoi"><a href="contacto.html">Contacto</a></li>
+        <li id="unoi"><a href="nosotros.html">Nosotros</a></li>
+    </ul>
+
 </body>
+
 </html>
