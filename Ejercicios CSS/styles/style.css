@@ -1,0 +1,48 @@
+body{
+    background-color: #f2eeeb;
+}
+
+#archivo{
+    color: olive;
+}
+h1{
+    color: blue;
+    font-size: 60px;
+    text-align: center;
+}
+div{
+    background-color: lightgrey;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+#lgf{
+    background-color: lightgray;
+    width: 500px;
+    padding: 15px;
+    border: 25px solid orange;
+    margin: 15px;
+
+}
+.miclase{
+    background-color: lightgray;
+    width: 500px;
+    padding: 5px;
+    border: 5px solid orange;
+    margin: 5px;
+    outline: 2px solid red;
+}
+ul#uno{
+    list-style-type: none;
+    padding: 0px;
+    border: 0px;
+    width: 90px;
+}
+li#unoi a{
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid blue;
+}
