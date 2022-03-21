@@ -1,48 +1,140 @@
-body{
-    background-color: #f2eeeb;
+body {
+  background-color: #f2eeeb;
 }
 
-#archivo{
-    color: olive;
+#archivo {
+  color: olive;
 }
-h1{
-    color: blue;
-    font-size: 60px;
-    text-align: center;
+h1 {
+  color: blue;
+  font-size: 60px;
+  text-align: center;
 }
-div{
-    background-color: lightgrey;
-    width: 300px;
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;
+div {
+  background-color: lightgrey;
+  width: 300px;
+  padding: 25px;
+  border: 25px solid navy;
+  margin: 25px;
 }
-#lgf{
-    background-color: lightgray;
-    width: 500px;
-    padding: 15px;
-    border: 25px solid orange;
-    margin: 15px;
+#lgf {
+  background-color: lightgray;
+  width: 500px;
+  padding: 15px;
+  border: 25px solid orange;
+  margin: 15px;
+}
+.miclase {
+  background-color: lightgray;
+  width: 500px;
+  padding: 5px;
+  border: 5px solid orange;
+  margin: 5px;
+  outline: 2px solid red;
+}
 
+ul#uno {
+  list-style-type: none;
+  padding: 0px;
+  border: 0px;
+  width: 90px;
 }
-.miclase{
-    background-color: lightgray;
-    width: 500px;
-    padding: 5px;
-    border: 5px solid orange;
-    margin: 5px;
-    outline: 2px solid red;
+li#unoi a {
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid blue;
 }
-ul#uno{
-    list-style-type: none;
-    padding: 0px;
-    border: 0px;
-    width: 90px;
+
+ul#dos {
+  list-style: none;
+  padding: 0px;
+  border: 0px;
+  width: 90px;
 }
-li#unoi a{
-    display: block;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 1px solid blue;
+li#dosi a {
+  display: block;
+  background-color: #9999ff;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+li#dosi a:hover {
+  background-color: #cc9900;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul#tres {
+  list-style: none;
+  padding: 0px;
+  border: 0px;
+  width: 90px;
+  margin: 20px;
+  overflow: hidden;
+}
+li#tresi a {
+  background-color: #9999ff;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  float: left;
+}
+li#tresi a:hover {
+  background-color: #cc9900;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul#cuatro {
+  list-style-type: none;
+  padding: 10px;
+  border: 3px solid #afcde3;
+  border-radius: 5px;
+  margin: 20px;
+  overflow: hidden;
+  background-color: #afcde3;
+  max-width: 600px;
+  font: 15px arial, sans-serif;
+}
+li#cuatroi {
+  display: inline;
+  float: left;
+}
+li#cuatroi a {
+  background-color: #9999ff;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  float: left;
+  border: 1px solid #afcde3;
+  border-radius: 5px;
+}
+li#cuatroi a:hover {
+  background-color: #cc9900;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+li#sdosi a {
+  display: block;
+  background-color: #eeeeee;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-shadow: 5px 5px 10px red;
+}
+li#sdosi a:hover {
+  background-color: yellow;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
