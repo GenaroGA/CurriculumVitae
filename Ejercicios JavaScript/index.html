@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <script>
+            document.write('<h1>HolaJavaScript</h1>');
+            alert("Me encanta que estes en el curso");
+            document.getElementById('p1').innerHTML = Date();
+            document.getElementById('p2').innerHTML = 'Me gusto CSS';
+        </script>
+        <button type="button" onclick="document.getElementById('p2').innerHTML='JavaScript también'">OK</button>
+        <script>
+            function alegrar(){
+                var x = document.getElementById("p2");
+                x.style.fontSize = "25px";
+                x.style.color = "red";
+            }
+        </script>
+        <button type="button" onclick="alegrar()">Alegrar</button>
+    </body>
+</html>
