@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="utf-8">
-    <body>
-        <p id="p1"></p>
-        <p id="p2"></p>
-        <script>
-            document.write('<h1>HolaJavaScript</h1>');
-            alert("Me encanta que estes en el curso");
-            document.getElementById('p1').innerHTML = Date();
-            document.getElementById('p2').innerHTML = 'Me gusto CSS';
-        </script>
-        <button type="button" onclick="document.getElementById('p2').innerHTML='JavaScript también'">OK</button>
-        <script>
-            function alegrar(){
-                var x = document.getElementById("p2");
-                x.style.fontSize = "25px";
-                x.style.color = "red";
-            }
-        </script>
-        <button type="button" onclick="alegrar()">Alegrar</button>
-    </body>
+<meta charset="utf-8">
+
+<body   >
+    <script src="js/funciones.js"></script>
+
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p>Teclea un número pequeño</p>
+    <p id="mensaje"></p>
+    <input type="text" id="numero">
+    <p>¿Cuál es tu color favorito?</p>
+    <input type="text" id="color_favorito">
+    <br>
+    <button type="button" onclick="document.getElementById('p2').innerHTML='JavaScript también'">OK</button>
+    <button type="button" onclick="alegrar()">Alegrar</button>
+    <img src="img/UNAM.svg" alt="Escudo UNAM" id="escudo" height="100px" width="100px" onclick="colorear()">
+    <button type="button" onclick="cambiar_img()">Cambiar imagen</button>
+    <button onclick="validar();color_favorito()">validar</button>
+</body>
+
 </html>
