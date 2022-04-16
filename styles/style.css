@@ -1,0 +1,49 @@
+.presentation__h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3em;
+}
+.presentation__p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.presentation__links__button{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.presentation__links__a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.presentation__img{
+    border-radius: 50%;
+    width: 20em;
+}
+.presentation__links__img{
+    width: 2.5em;
+}
+.content__h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+}
+.content__h4{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: auto;
+}
+.content__ul{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    font-weight: 200;
+}
+.content__p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    font-weight: 200;
+}
+.content__img{
+    width: 2.5em;
+}
