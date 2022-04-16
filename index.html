@@ -1,62 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css">
     <script src="js/script.js"></script>
     <title>Juan Genaro García Alanis CV</title>
 </head>
+
 <body>
-    <div>
-        <div><img src="img/Genaro.jpg" alt="Genaro"></div>
-        <div><h1>Juan Genaro García  Alanis</h1></div>
-        <div class="linea"></div>
-        <div>Facultad de Estudios Superiores Acatlán</div>
-        <div>Matemáticas Aplicadas y computación</div>
-    </div>
-    <div>
-        <div><img src="img/github.png" alt="github"><a href="https://github.com/GenaroGA" target="_blank">https://github.com/GenaroGA</a></div>
-        <div><img src="img/whatsapp.png" alt="whatsapp">(+52) 5516352587</div>
-        <div><img src="img/email.png" alt="email">ga.juangenaro@gmail.com</a></div>
-    </div>
-    <div>
-        <div><img src="img/user.png" alt="user"></div>
-        <div><h2>Perfil</h2></div>
-        <div><p>Soy un estudiante de sexto semestre con el objetivo de perecer a  una empresa que me permita crecer profesionalmente, aplicando mis conocimientos en programación, estadística y matemática aplicada.</p></div>
-    </div>
-    <div>
-        <div><img src="img/birrete.png" alt="birrete"></div>
-        <div><h2>Educación</h2></div>
+    <div class="presentation">
+        <div><img src="img/Genaro.jpg" alt="Genaro" class="presentation__img"></div>
         <div>
-            <h4>Escuela Nacional Preparatoria 2 "Erasmo Castellanos Quinto"</h4>
-            <h4>Educación Media Superior</h4>
-            <ul>
+            <h1 class="presentation__h1">Juan Genaro García Alanis</h1>
+        </div>
+        <div class="presentation__line"></div>
+        <div>
+            <p class="presentation__p">Facultad de Estudios Superiores Acatlán</p>
+        </div>
+        <div>
+            <p class="presentation__p">Matemáticas Aplicadas y computación</p>
+        </div>
+        <div class="presentation__links">
+            <div><img src="img/github.png" alt="github" class="presentation__links__img"><a
+                    href="https://github.com/GenaroGA" target="_blank">https://github.com/GenaroGA</a></div>
+            <div><img src="img/whatsapp.png" alt="whatsapp" class="presentation__links__img"><button type="button"
+                    onclick="" class="presentation__links__button">(+52) 5516352587</button></div>
+            <div><img src="img/email.png" alt="email" class="presentation__links__img"><button type="button" onclick=""
+                    class="presentation__links__button">ga.juangenaro@gmail.com</button></a></div>
+        </div>
+    </div>
+    <div class="content">
+        <div><img src="img/user.png" alt="user" class="content__img"></div>
+        <div>
+            <h2 class="content__h2">Perfil</h2>
+        </div>
+        <div>
+            <p class="content__p">Soy un estudiante de sexto semestre con el objetivo de perecer a una empresa que me
+                permita crecer
+                profesionalmente, aplicando mis conocimientos en programación, estadística y matemática aplicada.</p>
+        </div>
+    </div>
+    <div class="content">
+        <div><img src="img/birrete.png" alt="birrete" class="content__img"></div>
+        <div>
+            <h2 class="content__h2">Educación</h2>
+        </div>
+        <div>
+            <h4 class="content__h4">Escuela Nacional Preparatoria 2 "Erasmo Castellanos Quinto"</h4>
+            <h4 class="content__h4">Educación Media Superior</h4>
+            <ul class="content__ul">
                 <li>Primer Lugar - Consurso Interpreparatoriano de Física III</li>
                 <li>XXIII Congreso Interpreparatoriano</li>
             </ul>
         </div>
-        <div>
-            <h4>Facultad de Estudios Superiores Acatlán</h4>
-            <h4>Educación Superior</h4>
-            <ul>
-                <li>XXXIII Congreso  de Informatica y Computación, ANIEI 2020</li>
+        <div class="content__college">
+            <h4 class="content__h4">Facultad de Estudios Superiores Acatlán</h4>
+            <h4 class="content__h4">Educación Superior</h4>
+            <ul class="content__ul">
+                <li>XXXIII Congreso de Informatica y Computación, ANIEI 2020</li>
                 <li>Design Thinking IBM</li>
             </ul>
         </div>
     </div>
-    <div>
-        <div><img src="img/skills.png" alt="skills"></div>
-        <div><h2>Habilidades</h2></div>
-        <div>C++, Java, HTML, CSS, R, SQL, Swift, Ingles Intermedio</div>
-        <div><img src="img/portfolio.png" alt="portfolio"></div>
-        <div>Experiencia Laboral</div>
+    <div class="skills">
+        <div><img src="img/skills.png" alt="skills" class="content__img"></div>
         <div>
-            <ul>
+            <h2 class="content__h2">Habilidades</h2>
+        </div>
+        <div><p class="content__p">C++, Java, HTML, CSS, R, SQL, Swift, Ingles Intermedio</p></div>
+        <div><img src="img/portfolio.png" alt="portfolio" class="content__img"></div>
+        <div><h2 class="content__h2">Experiencia Laboral</h2></div>
+        <div>
+            <ul class="content__ul">
                 <li>Segundo Escrutador INE (6 de Julio 2021)</li>
                 <li>Mesero, repartidor y cocinero en negocio familiar (Diciembre 2019 y 2020)</li>
             </ul>
         </div>
     </div>
-    <h2>Experiencia Laboral</h2>
 </body>
+
 </html>
