@@ -1,6 +1,6 @@
 <div align = "left">
 
-![foto](Genaro.jpg) 
+![foto](img/Genaro.jpg) 
 
 </div>
 
