@@ -1,8 +1,11 @@
 .presentation__links{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 .presentation__links__div{
-    margin: auto;
+    text-align: center;
 }
 .presentation__h1{
     font-family: 'Roboto Mono', monospace;
@@ -28,7 +31,7 @@
 .presentation__img{
     display: block;
     border-radius: 50%;
-    width: 20em;
+    width: 16em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -46,24 +49,88 @@
 .content__h2{
     font-family: 'Roboto Mono', monospace;
     font-size: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1em;
 }
 .content__h4{
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 300;
+    text-align: center;
+    padding-top: 1em;
     margin: auto;
 }
 .content__ul{
     font-family: 'Roboto Mono', monospace;
-    font-size: 1em;
-    font-weight: 200;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 1em;
+    text-align: center;
 }
 .content__p{
     font-family: 'Roboto Mono', monospace;
-    font-size: 1em;
-    font-weight: 200;
+    font-size: 1.3em;
+    font-weight: 300;
+    text-align: center;
 
 }
 .content__img{
     width: 2.5em;
+    margin: auto 1em;
 }
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "uno uno"
+    "cuatro cuatro"
+    "dos tres"
+    "dos tres"
+}
+.content__div{
+    display: flex;
+    justify-content: center;
+    grid-area: uno;
+}
+.profile-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    grid-area: cuatro;
+}
+.content__highschool{
+    margin-top: auto;
+    margin-bottom: auto;
+    grid-area: dos;
+}
+.content__college{
+    grid-area: tres;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "a b"
+    "c c"
+}
+.skills__skills{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    grid-area: a;
+}
+.skills__jobs{
+    display: flex;
+    grid-area: b;
+    justify-content: center;
+}
+.job{
+    padding: 0em;
+}
+.content__profile{
+    text-align: center;
+}
+
