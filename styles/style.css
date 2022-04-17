@@ -1,13 +1,21 @@
+.presentation__links{
+    display: flex;
+}
+.presentation__links__div{
+    margin: auto;
+}
 .presentation__h1{
     font-family: 'Roboto Mono', monospace;
     font-size: 3em;
+    text-align: center;
 }
 .presentation__p{
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5em;
     font-weight: 300;
+    text-align: center;
 }
-.presentation__links__button{
+.presentation__links__p{
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5em;
     font-weight: 300;
@@ -18,11 +26,22 @@
     font-weight: 300;
 }
 .presentation__img{
+    display: block;
     border-radius: 50%;
     width: 20em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .presentation__links__img{
     width: 2.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentation__line{
+    background-color: black;
+    width: auto;
+    height: 3px;
 }
 .content__h2{
     font-family: 'Roboto Mono', monospace;
@@ -43,6 +62,7 @@
     font-family: 'Roboto Mono', monospace;
     font-size: 1em;
     font-weight: 200;
+
 }
 .content__img{
     width: 2.5em;
