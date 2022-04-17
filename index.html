@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/normalize.css">
 
@@ -16,7 +17,68 @@
 
 <body>
     <div class="presentation">
-        <div><img src="img/Genaro.jpg" alt="Genaro" class="presentation__img"></div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Imagenes de todo el ancho con numeros y un texto  -->
+            <div class="mySlides fade" style="display: block;">
+                <div class="numbertext">1 / 7</div>
+                <img src="img/Genaro.jpg" style="width:50%" class="presentation__img__perfil">
+                <div class="text">Foto</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 7</div>
+                <img src="img/docs/InterPrepas.jpg" class="presentation__img__2">
+                <div class="text">Concurso Interpreparatoriano de Física III</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 7</div>
+                <img src="img/docs/InterPrepasCongreso.jpg" class="presentation__img">
+                <div class="text">XXIII Congreso Interpreparatoriano</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 7</div>
+                <img src="img/docs/ANIEI.jpg" class="presentation__img">
+                <div class="text">ANIEI 2020</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 7</div>
+                <img src="img/docs/IBM.png" class="presentation__img">
+                <div class="text">Disign Thinking IBM</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 7</div>
+                <img src="img/docs/Swift.jpg" class="presentation__img">
+                <div class="text">Swift</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 7</div>
+                <img src="img/docs/EscrutadorINE.jpg" class="presentation__img">
+                <div class="text">Segundo Escrutador INE</div>
+            </div>
+
+            <!-- siguiente y anterior buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- Indicador de imagenes -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
         <div>
             <h1 class="presentation__h1">Juan Genaro García Alanis</h1>
         </div>
