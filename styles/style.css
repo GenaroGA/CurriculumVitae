@@ -1,3 +1,16 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+#github:hover{
+    color: #D94AA7;
+}
+#cel:hover{
+    color: #D94AA7;
+}
+#email:hover{
+    color: #D94AA7;
+}
 .presentation__links{
     display: flex;
     flex-wrap: wrap;
