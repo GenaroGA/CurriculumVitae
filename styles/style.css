@@ -1,3 +1,15 @@
+.main{
+    display: grid;
+    grid-template-areas: 
+    "presentacion"
+    "contenido"
+    "contenido2"
+    "habilidades";
+}
+.presentation{
+    justify-content: center;
+    grid-area: presentacion;
+}
 a{
     text-decoration: none;
     color: black;
@@ -111,12 +123,21 @@ img{
     margin: auto 1em;
 }
 .content{
+    grid-area: contenido;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "uno uno"
     "cuatro cuatro"
+}
+.content__2{
+    grid-area: contenido2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "uno uno"
     "dos tres"
     "dos tres"
 }
@@ -139,6 +160,7 @@ img{
     grid-area: tres;
 }
 .skills{
+    grid-area: habilidades;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
